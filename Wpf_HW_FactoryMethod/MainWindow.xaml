@@ -1,0 +1,12 @@
+﻿<Window x:Name="windowShowButton" x:Class="Wpf_HW_FactoryMethod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_HW_FactoryMethod"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="300">
+    <Grid>
+        <Button x:Name="btn_1" Content="Show Shapes" Margin="20,5" Click="Btn_1_Click" FontFamily="Georgia" FontSize="22" Background="Aqua"/>
+    </Grid>
+</Window>
